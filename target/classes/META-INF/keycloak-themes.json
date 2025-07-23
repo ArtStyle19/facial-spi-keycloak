@@ -1,0 +1,8 @@
+{
+  "themes": [
+    {
+      "name": "central-vet",
+      "types": [ "login" ]
+    }
+  ]
+}
