@@ -29,6 +29,7 @@ public class FacialMfaAuthenticator implements Authenticator {
     /* 1️⃣ paso "browser" */
     @Override
     public void authenticate(AuthenticationFlowContext ctx) {
+        log.info("🔥 FacialMfaAuthenticator.authenticate() ejecutado");
         UserModel user = ctx.getUser();
         try {
             String themeName = ctx.getSession().theme().getTheme(Theme.Type.LOGIN).getName();
